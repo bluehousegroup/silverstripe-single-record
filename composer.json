@@ -2,7 +2,7 @@
   "name": "bluehousegroup/silverstripe-single-record",
   "description": "A module for managing a data object that has only a single record (similar to site config)",
   "homepage": "http://github.com/bluehousegroup/single-single-record",
-  "keywords": ["silverstripe", "data object", "single record"],
+  "keywords": ["silverstripe", "data object", "single record", "model admin"],
   "license": "BSD-3-Clause",
   "authors": [
     {"name": "Andrew Rousseau","email": "andrew@bluehousegroup.com"}
