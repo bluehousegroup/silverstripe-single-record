@@ -66,22 +66,6 @@ class SingleRecordDataObject extends DataExtension
 	}
 
 	/**
-	 * Setup a default SingleRecordDataObject record if none exists.
-	 */
-	public function requireDefaultRecords()
-	{
-		parent::requireDefaultRecords();
-
-		$config = DataObject::get_one(self::class);
-
-		if (!$config) {
-			self::make_single_record_data_object();
-
-			DB::alteration_message("Added default site config", "created");
-		}
-	}
-
-	/**
 	 * Create SingleRecordDataObject with defaults from language file.
 	 *
 	 * @return SingleRecordDataObject
